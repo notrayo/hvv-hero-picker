@@ -1,3 +1,5 @@
+import 'dart:math';
+
 import 'package:flutter/material.dart';
 import 'package:hvv_hero_picker/widgets/faction_button.dart';
 
@@ -9,7 +11,55 @@ class DarkSideScreen extends StatefulWidget {
 }
 
 class _DarkSideScreenState extends State<DarkSideScreen> {
+  late String villainImageString;
+  late String villainNameString;
+
   @override
+  void initState() {
+    super.initState();
+
+    villainImageString = 'assets/villains_images/Battlefront_Vader.jpg';
+    villainNameString = 'DARTH VADER';
+  }
+
+  void dsVillainPicker() {
+    List<String> villainImages = [
+      'assets/villains_images/Angrybeeps.jpg',
+      'assets/villains_images/Battlefront_Boba.jpg',
+      'assets/villains_images/Battlefront_Palpatine.jpg',
+      'assets/villains_images/Battlefront_Vader.jpg',
+      'assets/villains_images/Dooku_close_up.jpg',
+      'assets/villains_images/General-grievous-shattered-armor.jpg',
+      'assets/villains_images/Iden_Versio_Crop.jpg',
+      'assets/villains_images/Kylo-ren-masked.jpg',
+      'assets/villains_images/Mauldef.jpg',
+      'assets/villains_images/Phasma_close_up.jpg',
+      'assets/villains_images/SWBFII_DICE_Boost_Card_Bossk_-_Unrelenting_Predator_large.jpg'
+    ];
+
+    List<String> villainNames = [
+      'BB-9E',
+      'BOBA FETT',
+      'EMPEROR PALPATINE',
+      'DARTH VADER',
+      'COUNT DOOKU',
+      'GENERAL GRIEVOUS',
+      'IDEN VERSIO',
+      'KYLO REN',
+      'DARTH MAUL',
+      'PHASMOMMY',
+      'BOSSK'
+    ];
+
+    var random = Random();
+    var villainRandomizedIndex = random.nextInt(villainImages.length);
+
+    setState(() {
+      villainImageString = villainImages[villainRandomizedIndex];
+      villainNameString = villainNames[villainRandomizedIndex];
+    });
+  }
+
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
@@ -34,16 +84,16 @@ class _DarkSideScreenState extends State<DarkSideScreen> {
                 height: 60,
               ),
               Image.asset(
-                'assets/villains_images/Battlefront_Vader.jpg',
+                villainImageString,
                 height: 350,
                 width: 350,
               ),
               const SizedBox(
                 height: 45,
               ),
-              const Text(
-                'DARTH VADER',
-                style: TextStyle(
+              Text(
+                villainNameString,
+                style: const TextStyle(
                     color: Colors.black,
                     fontSize: 25,
                     fontWeight: FontWeight.w600),
@@ -51,7 +101,8 @@ class _DarkSideScreenState extends State<DarkSideScreen> {
               const SizedBox(
                 height: 40,
               ),
-              FactionButton(buttonText: 'SWITCH VILLAIN', onButtonPress: () {})
+              FactionButton(
+                  buttonText: 'SWITCH VILLAIN', onButtonPress: dsVillainPicker)
             ],
           ),
         ),
