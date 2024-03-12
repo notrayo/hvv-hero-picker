@@ -10,13 +10,6 @@ If you a battlefront vet, you know it gets monotonous having to use your 'main' 
 
 Classic Star Wars themed welcome screen, with an option to choose either Light Side heroes, or dark side villains
 
-<<<<<<< HEAD
-![Screenshot 1](https://github.com/notrayo/hvv-hero-picker/blob/main/assets/readme_screenshots/Screenshot%20from%202024-03-12%2016-33-39.png)
-=======
-
-
-![Screenshot 1] (assets/readme_screenshots/Screenshot from 2024-03-12 16-33-39.png)
->>>>>>> f4d15a3f1dd73f74acc2919e3adce2cd8185274e
 
 ### 2. Light Side
 
