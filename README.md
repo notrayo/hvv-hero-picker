@@ -10,22 +10,22 @@ If you a battlefront vet, you know it gets monotonous having to use your 'main' 
 
 Classic Star Wars themed welcome screen, with an option to choose either Light Side heroes, or dark side villains
 
-![Screenshot 1] (assets/readme_screenshots/Screenshot from 2024-03-12 16-33-39.png)
+![Screenshot 1](https://github.com/notrayo/hvv-hero-picker/blob/main/assets/readme_screenshots/Screenshot%20from%202024-03-12%2016-33-39.png)
 
 ### 2. Light Side
 
 The good guys, you can randomly select from an option of 11 characters
 
-![screenshot 2] (https://github.com/notrayo/hvv-hero-picker/blob/main/assets/readme_screenshots/Screenshot%20from%202024-03-12%2016-33-49.png)
+![screenshot 2](https://github.com/notrayo/hvv-hero-picker/blob/main/assets/readme_screenshots/Screenshot%20from%202024-03-12%2016-33-49.png)
 
-![screenshot 3] (https://github.com/notrayo/hvv-hero-picker/blob/main/assets/readme_screenshots/Screenshot%20from%202024-03-12%2016-33-59.png)
+![screenshot 3](https://github.com/notrayo/hvv-hero-picker/blob/main/assets/readme_screenshots/Screenshot%20from%202024-03-12%2016-33-59.png)
 
 ### 3. Dark Side
 
 There are the bad guys so tread carefully lol. You have 11 characters to randomly choose from as well
 
-![screenshot 4] (https://github.com/notrayo/hvv-hero-picker/blob/main/assets/readme_screenshots/Screenshot%20from%202024-03-12%2016-34-09.png)
+![screenshot 4](https://github.com/notrayo/hvv-hero-picker/blob/main/assets/readme_screenshots/Screenshot%20from%202024-03-12%2016-34-09.png)
 
-![screenshot 5] (https://github.com/notrayo/hvv-hero-picker/blob/main/assets/readme_screenshots/Screenshot%20from%202024-03-12%2016-34-18.png)
+![screenshot 5](https://github.com/notrayo/hvv-hero-picker/blob/main/assets/readme_screenshots/Screenshot%20from%202024-03-12%2016-34-18.png)
 
 
